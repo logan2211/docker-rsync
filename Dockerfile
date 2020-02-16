@@ -1,6 +1,6 @@
 FROM debian:latest
 
-ARG RSYNC_PACKAGE=rsync
+ARG RSYNC_PACKAGE="rsync=3.1.3-6"
 
 ENV TINI_VERSION v0.18.0
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /tini
